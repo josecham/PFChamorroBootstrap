@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/jchamorro3.png" type="image/x-icon">
+    <title>INICIO</title>
+    <!-- LINK CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- LO PRIMERO QUE ABRIMOS ES UN CONTAINER -->
+    <div class="container-fluid">
+        <!-- DENTRO DEL CONTAINER PUEDO TENER ROW ILIMITADAS (1 o +1) -->
+        <header class="row bg-principal">
+            <!-- SIEMPRE DENTRO DE LA ROW, TENGO QUE PONER LA CANTIDAD DE COLUMNAS. SE TRABAJA CON 12 COLUMNAS DE ANCHO Y SI TENEMOS 13 GENERA UN SALTO DE LINEA -->
+            <div class="col-lg-12 col-12">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="img/jchamorro3.png" alt="logoch" class="rounded mx-auto d-block"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3 active" aria-current="page" href="#">INICIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3" href="pages/habilidades.html">HABILIDADES</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3" href="pages/contacto.html">CONTACTO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3" href="pages/proyecto.html">PROYECTO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3" href="pages/blog.html">BLOG</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3" href="https://www.google.com/" target="_blank">GOOGL</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </header>
+        <!-- NUEVA ROW -->
+        <div class="row">
+            <div class="col-lg-12 col-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/portada.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/portada1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/portada2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-12 p-4">
+                <h1 class="fs-1 text-center m-3 text-primary">Bienvenidos soy Jose Chamorro Desarrollador Web </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-12 p-4 ">
+              <p>Hola! Soy Jose Chamorro, desarrollador y diseñador web  con sede en Argentina.</p> 
+                <p>He estado creando cosas en la web durante los últimos años, trabajando con clientes en varios países y pequeñas empresas.</p>
+                <p>Mi enfoque es crear interfaces atractivas, accesibles y eficaces para los todos. Me considero una persona bien organizada,empleado independiente con gran atención a los detalles. Diseño y codifico cosas hermosas y sencillas y me encanta lo que hago. </p>
+                <p> Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador.
+                Me considero una persona tranquilamente confiado y trabajo perpetuamente para mejorar mis habilidades, considero siempre empezar a partir de un problema a la vez.</p>
+                <p> Actualmente estoy interesado en aprender más sobre accesibilidad y profundizar en las animaciones CSS/JS, además Inglés para desarrollo, WordPress y Angular como mis próximas metas a cumplir.</p>
+            </div>
+            <div class="col-lg-6 col-12 p-4 figure">
+                <img src="img/perfil1.jpg" alt="#" class="figure-img img-fluid rounded mx-auto d-block ">
+            </div>
+            
+        </div>
+        <footer class="row bg-principal mt-5 p-4">
+            <div class="col-lg-4 col-12 ">
+                <img src="img/jchamorro3.png" alt="logoch" class="img-fluid rounded float-start">
+            </div>
+            <div class="col-lg-4 col-12  list-unstyled">
+                <li>
+                <p class="fs-3 text-primary">REDES SOCIALES</p>
+                <a class="fs-3 text-primary" href="https://www.Facebook.com" target="_blank">FB</a>
+                <a class="fs-3 text-primary" href="https://www.linkedin.com" target="_blank">LI</a>
+                <a class="fs-3 text-primary" href="https://www.twitter.com" target="_blank">TW</a>
+                <a class="fs-3 text-primary" href="https://www.youtube.com/@nicognito9822/videos" target="_blank">YT</a>
+              </li>
+           </div>
+            <div class="col-lg-4 col-12  list-unstyled">
+              <li>
+                <p class="fs-3 text-primary">CONTACTO</p>
+                <p class="fs-3 text-primary">gabrielchamo@hotmail.com</p>
+              </li>
+            </div>
+        </footer>
+    </div>
+    <!-- LINK JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

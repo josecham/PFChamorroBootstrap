@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/jchamorro3.png" type="image/x-icon">
+    <title>BLOG</title>
+    <!-- LINK CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- LO PRIMERO QUE ABRIMOS ES UN CONTAINER -->
+    <div class="container-fluid">
+        <!-- DENTRO DEL CONTAINER PUEDO TENER ROW ILIMITADAS (1 o +1) -->
+        <header class="row bg-principal">
+            <!-- SIEMPRE DENTRO DE LA ROW, TENGO QUE PONER LA CANTIDAD DE COLUMNAS. SE TRABAJA CON 12 COLUMNAS DE ANCHO Y SI TENEMOS 13 GENERA UN SALTO DE LINEA -->
+            <div class="col-lg-12 col-12">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="../img/jchamorro3.png" alt="logoch" class="rounded mx-auto d-block"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info  fs-3" href="../index.html">INICIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3"  href="habilidades.html">HABILIDADES</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3" href="contacto.html">CONTACTO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3" href="proyecto.html">PROYECTO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-primary btn btn-info fs-3 active" aria-current="page"href="#">BLOG</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-lg-12 col-12 p-4">
+                <h1 class="fs-1 text-center m-3 text-primary">BLOG</h1>
+                <H3>MI FORMA DE TRABAJAR</H3>
+    <p>En un dia donde es requerido realizar tareas de baja energia suelo escuchar musica mientras escribo algunas lineas de codigo, es inspirador para mi ya que me despiertan ideas que luego termino plasmando a la pagina, en algunos casos dejandolo en stand-by para otros proyectos.
+    Ademas tengo una libreta de anotacion donde suelo escribir estas ideas esperando que llegue su momento para poder ser creado. 
+    Mi forma de ver las cosas creer y crear, todo lo que puedes imaginar se puede crear.
+    Les comparto algunos temas que mas me gusta escuchar seguido con los articulos publicados del blog. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-12 p-4"class="img-fluid">
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/N-c6Tg9os90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded mx-auto d-block"></iframe>
+        </div>
+        
+            <div class="col-lg-4 col-12 p-4"class="img-fluid">
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/seWqkWlE-V0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded mx-auto d-block"></iframe>
+        </div>
+       
+            <div class="col-lg-4 col-12 p-4"class="img-fluid">
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/oGkfcs9n4sE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded mx-auto d-block"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-12 p-4">
+                <div><h3>MI PRIMER TAREA APLICANDO BOX MODEL PARA AJUSTAR UNA IMAGEN</h3>
+    <p>Teniendo en cuenta que todos los elementos del html son cajas, hubo varias imagenes que salian de las propiedades de la caja, fue una tarea si bien sencilla necesario de empezar con el pie derecho.
+    Use box model  width a la propiedad CSS que controla la anchura de la caja de los elementos.
+    Tambien tenemos height que controla la altura de la caja de los elementos, pero en ese caso no fue necesario.
+    Importante tener en cuenta que la propiedad width no acepta valores negativos, no funciona con los elementos en línea que no son imágenes. Ademas si se añaden márgenes, bordes y rellenos, la anchura total con la que se muestra el elemento será mayor que el valor de la propiedad width.
+    </p>
+    <h3>CAMBIANDO EL DISEÑO DE LAS BARRAS DE SCROLL</h3>
+    <p>
+    Una de las recomendaciones fundamentales para una buena usabilidad es no modificar en exceso el diseño de los elementos que forman parte de la interfaz de usuario del sistema operativo, tales como botones, elementos select, las barras de scroll, etc. Hacerlo complica el uso de tu sitio o aplicación web porque el usuario tiene que aprender a reconocerlos.
+    No obstante, como toda norma tiene sus excepciones, a veces puede ser necesario modificar estos elementos en algunos diseños muy especiales.
+    Los tres escenarios para los que se ha pensado este estándar son:
+    Cambiar el color de las barras de scroll para adaptarlas al diseño de la aplicación o sitio web.
+    Mostrar barras de scroll más finas de lo normal cuando un elemento lo requiera.
+    Diseñar barras de scroll totalmente personalizadas si el diseño así lo requiere.
+    Para ello se han definido dos nuevas propiedades CSS (scrollbar-color y scrollbar-width) que se pueden aplicar a la página entera y también a cualquier elemento
+    </p>
+    <H3>QUE ES UN BLOG</H3>
+    <p>Los blogs comenzaron su irrupción en internet a mediados de los años 90 y pronto supusieron uno de los puntos de inflexión en la red de redes, al facilitar a cualquier usuario la posibilidad de llevar sus palabras a un público potencialmente enorme. La clave del éxito estaba en buena parte en la simplificación del proceso, lo que eliminaba muchas barreras a usuarios sin conocimientos técnicos.
+    Los blogs se caracterizan por tener un contenido que se amplia con cierta regularidad. 
+    La frecuencia de actualización resulta fundamental, pues es lo que hace que los visitantes regresen para consultar el contenido nuevo, al contrario de lo que ocurre en webs estáticas donde el usuario solo accede de forma puntual a consultar una información y una resuelta su necesidad no encuentra motivos para el regreso.
+    Lo importante en un blog es el contenido, por lo que los sistemas de gestión deben facilitar principalmente la inclusión y manejo 
+    del mismo. Además, el orden cronológico es el que prima. Las portadas de los blogs son generalmente un listado cronológico de todas las entradas, donde las más recientes se muestra primero, ya se completamente o mediante un resumen que invita a leer el contenido completo de la entrada.
+    Pese a esta priorización a modo de pila, en la que el contenido antiguo es desplazado por el nuevo, suelen contar con sistemas de organización más allá de la fecha, como son la categorización (estructurados y jerárquicos) y el etiquetado (a modo de palabras clave) que facilitan la búsqueda por contenido.Los blogs por tanto, son un tipo de página web centrada en inclusión de contenido con cierta regularidad. Muchas veces se usa el término distinguiéndolo de otro que si bien es más genérico no es contrapuesto: sitio web. 
+    </p>
+</div>
+</div>
+        <div class="col-lg-6 col-12 p-4 ">
+            <img src="../img/box1.jpg" alt="box1" class="p-4 rounded mx-auto d-block">
+            <img src="../img/box2.jpg" alt="box2"class="p-4 rounded mx-auto d-block">
+            <img src="../img/blog3.jpg" alt="blog3"class="p-4 rounded mx-auto d-block">   
+        </div>
+    </div>
+        <footer class="row bg-principal mt-5 p-4">
+            <div class="col-lg-4 col-12">
+                <img src="../img/jchamorro3.png" alt="logoch" class="img-fluid rounded float-start">
+            </div>
+            <div class="col-lg-4 col-12 list-unstyled">
+                <li>
+                <p class="fs-3 text-primary">REDES SOCIALES</p>
+                <a class="fs-3 text-primary" href="https://www.Facebook.com" target="_blank">FB</a>
+                <a class="fs-3 text-primary" href="https://www.linkedin.com" target="_blank">LI</a>
+                <a class="fs-3 text-primary" href="https://www.twitter.com" target="_blank">TW</a>
+                <a class="fs-3 text-primary" href="https://www.youtube.com/@nicognito9822/videos" target="_blank">YT</a>
+              </li>
+           </div>
+            <div class="col-lg-4 col-12 list-unstyled">
+              <li>
+                <p class="fs-3 text-primary">CONTACTO</p>
+                <p class="fs-3 text-primary">gabrielchamo@hotmail.com</p>
+              </li>
+            </div>
+        </footer>
+    </div>
+    <!-- LINK JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
