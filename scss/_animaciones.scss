@@ -1,0 +1,22 @@
+// ANIMACIONES
+// declaramos y definimos una animacion
+@keyframes animacion-logo{
+    0%{
+        transform:translate(50px,-50px);
+    }
+    20%{
+        transform:scale(2,2);
+    }
+    40%{
+        transform:rotate(360deg);
+    }
+    60%{
+        transform:scale(1,1);
+    }
+    80%{
+        transform:skew(50deg,30deg);
+    }
+    100%{
+        transform:translate(0,0);
+    }
+}

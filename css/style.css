@@ -10720,15 +10720,52 @@ textarea.form-control-lg {
   }
 }
 header {
-  background-image: linear-gradient(to bottom, blue, transparent);
+  background-image: linear-gradient(to bottom, aqua, transparent);
 }
 
 footer {
-  background-image: linear-gradient(to top, blue, transparent);
+  background-image: linear-gradient(to top, aqua, transparent);
 }
 
 body {
   background-image: linear-gradient(to bottom, rgb(219, 219, 224), transparent);
+}
+
+.scale {
+  transition: all 1s;
+}
+.scale:hover {
+  transform: scale(1.5, 1.5);
+}
+
+p {
+  font-size: 20px;
+  transition: all 1s;
+}
+p:hover {
+  padding: 20px;
+  font-size: 25px;
+}
+
+@keyframes animacion-logo {
+  0% {
+    transform: translate(50px, -50px);
+  }
+  20% {
+    transform: scale(2, 2);
+  }
+  40% {
+    transform: rotate(360deg);
+  }
+  60% {
+    transform: scale(1, 1);
+  }
+  80% {
+    transform: skew(50deg, 30deg);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
