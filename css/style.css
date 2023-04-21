@@ -10744,7 +10744,7 @@ p {
 }
 p:hover {
   padding: 20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 @keyframes animacion-logo {
