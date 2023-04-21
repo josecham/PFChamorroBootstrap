@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2chamorro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josecham/PreEntrega2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josecham/PreEntrega2/issues"
+  },
+  "homepage": "https://github.com/josecham/PreEntrega2#readme"
+}
