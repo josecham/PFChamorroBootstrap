@@ -20,3 +20,28 @@
         transform:translate(0,0);
     }
 }
+.circle{
+    margin-top: 30px;
+    //margin-left: 110px;//
+    width: 12%;
+    height: 12%;
+    background-color:black;
+    border-radius: 50%;
+    animation-name:cambiarColor;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+@keyframes cambiarColor{
+    0%{
+        background-color: aqua;
+        transform:translateX(30%) scale(1.2);
+        
+    }
+    100%{
+        background-color: blue;
+        transform:translateX(750%) scale(.8);
+        
+    }
+}
