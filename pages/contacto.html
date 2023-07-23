@@ -67,10 +67,10 @@
           <div class="col-lg-8 col-12 p-4" data-aos="fade-up"
           data-aos-duration="3000">
             <fieldset>
-            <form class="row g-3 needs-validation" novalidate>
+            <form  class="row g-3 needs-validation" onsubmit="datos(event)">
               <div class="col-md-6">
                 <label for="validationCustom01" class="form-label">NOMBRE</label>
-                <input type="text" class="form-control form-control-lg" id="validationCustom01" value="Mark" required>
+                <input type="text" class="form-control form-control-lg" id="nombre" value="Mark" required>
                 <div class="valid-feedback">
                   Looks good!
                 </div>
@@ -86,7 +86,7 @@
               
               <div class="col-md-12">
                 <label for="exampleFormControlInput1" class="form-label">EMAIL</label>
-                <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control form-control-lg" id="correo" placeholder="name@example.com">
               </div>
               
               <div class="col-md-12">
@@ -106,7 +106,7 @@
                 </div>
                 
               <div class="col-12">
-                <button class="btn btn-primary" type="submit">ENVIAR</button>
+                <button class="btn btn-primary" type="submit" value="submit">ENVIAR</button>
               </div>
             </div>
             </form>
@@ -163,5 +163,6 @@
 <script>
     AOS.init();
 </script>
+<script src="../js/index.js"></script>
 </body>
 </html>
